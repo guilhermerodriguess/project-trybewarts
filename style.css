@@ -12,3 +12,29 @@
 .trybewarts-login{
   display: flex;
 }
+
+#trybewarts-header-title {
+  display: flex;
+  order: 2;
+  align-self: center;
+}
+
+.trybewarts-header-logo {
+  display: flex;
+  order: 1;
+  align-self: center;
+}
+
+.trybewarts-login {
+  display: flex;
+  order: 3;
+  align-self: center;
+}
+main{
+  display: flex;
+}
+
+#evaluation-form{
+  width: 675px;
+ display: flex;
+}
