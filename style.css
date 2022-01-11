@@ -43,3 +43,14 @@ main{
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+.nomesobrenome{
+  display: flex;
+  flex-direction: row;
+}
+
+.emailCasa{
+  display: flex;
+  flex-direction: row;
+}
+
