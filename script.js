@@ -15,9 +15,14 @@ function login(){
   }
 }
 
-// check.addEventListener('click', login2);
+check.addEventListener('click', checked)
 
-// function login2(){
-//   if ()
-// }
+function checked() {
+  if (check.checked == true) {
+    document.getElementById('submit-btn').disabled = false
+  }
+  else if (check.checked == false ) {
+    document.getElementById('submit-btn').disabled = true
+  }
+}
 
