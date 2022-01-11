@@ -50,8 +50,27 @@ main{
 }
 
 .emailCasa{
+  border: 2px solid blue;
   display: flex;
   flex-direction: row;
+}
+
+.email{
+  border: 2px solid red;
+}
+
+.casa{
+  border: 2px solid black;
+}
+
+.avalia{
+  display: flex;
+  flex-direction: row;
+}
+
+.btn-radio{
+  display: flex;
+  flex-direction: column;
 }
 
 #label-family {

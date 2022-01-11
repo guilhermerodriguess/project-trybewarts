@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,6 +13,7 @@
   <div class="header">
     <img class= 'trybewarts-header-logo' src="images/trybewarts-header-logo.svg" alt="">
     <h1 id="trybewarts-header-title">Trybewarts</h1>
+  
   <form class="trybewarts-login" action="" method="get">
     <div>      
       <label for="input-email"></label>
@@ -25,8 +26,10 @@
     </div>
 
     <button id="botao">Entrar</button>
+
   </form>
   </div>
+  
   <main>
     <form action="" id="evaluation-form">
       <div class="nomesobrenome">  
@@ -39,31 +42,42 @@
           <input type="text" name="" id="input-lastname" placeholder="Sobrenome">
         </div>
       </div>
-    <div class="emailCasa"> 
-      <div>      
+
+    <div class="emailCasa">
+      <div class="email">      
         <label for="input-email"></label>
         <input type="email" name="" id="input-email" placeholder="Email">
       </div>
         
+      <div class="casa">
         <select name="" id="house">
           <option id="gitnoria-house" value="Gitnória">Gitnória</option>
           <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
           <option id="corvinode-house" value="Corvinode">Corvinode</option>
           <option id="pytherina-house" value="Pytherina">Pytherina</option>
         </select>
+      </div>
     </div>
-  <hr>
+  
+    <hr>
     
-      <div>
+      <div class="btn-radio">
         <p id="label-family">Qual sua família?</p>
-        <input type="radio" name="family" id="qual-familia" value='Frontend'>
-        <label for="qual-familia" >Familia FrontEnd</label>
-        <input type="radio" name="family" id="qual-familia" value='Backend'>
-        <label for="qual-familia" >Familia Backend</label>
-        <input type="radio" name="family" id="qual-familia" value='FullStack'>
-        <label for="qual-familia" >Familia FullStack</label>
+        <div>
+          <input type="radio" name="family" id="qual-familia" value='Frontend'>
+          <label for="qual-familia" >Familia FrontEnd</label>
+        </div>
+        <div>
+          <input type="radio" name="family" id="qual-familia" value='Backend'>
+          <label for="qual-familia" >Familia Backend</label>
+        </div>
+        <div>
+          <input type="radio" name="family" id="qual-familia" value='FullStack'>
+          <label for="qual-familia" >Familia FullStack</label>
+        </div>
       </div>
       
+      <div>
         <p id="label-content">Qual conteúdo você está com mais vontade de aprender?</p>
         <input type="checkbox" name="family" id="qual-HoFs" value='HoFs'>
         <label for="qual-HoFs">HoFs</label>
@@ -77,11 +91,15 @@
         <label for="qual-SQL">SQL</label>
         <input type="checkbox" name="family" id="qual-Python" value='Python'>
         <label for="qual-Python">Python</label>
+      </div>
     
-    
-  <hr>
+    <hr>
+
+    <div class="avalia">
       <div>
         <p id='label-rate'>Como você avalia a Trybewarts?</p>
+      </div>
+      <div>
         <input id='1' type="radio" name="rate" value="1">
         <label for="1">1</label>
         <input id='2' type="radio" name="rate" value="2">
@@ -103,6 +121,7 @@
         <input id='10' type="radio" name="rate" value="10">
         <label for="10">10</label>
       </div>
+    </div>
 
     <div>
       <p class="textarea">Deixe seu comentário:</p>
@@ -110,16 +129,15 @@
     </div>
 
     <div>
-        <p>Você concorda com o uso das informações acima?</p>
-        <label id='label-infos' for="agreement"></label>
-        <input type="checkbox" name="family" id="agreement" value='info'>
+      <label id="label-infos" for="agreement">Você concorda com o uso das informações acima?</label>
+      <input type="checkbox" name="family" id="agreement" value='info'>
     </div>
 
     <button type="submit" id="submit-btn">Enviar</button>
       
     </form>
     <img id='trybewarts-forms-logo' src="images/trybewarts-colored.svg" alt=""> 
-    </main>
+  </main>
 </body>
 
 <footer>
