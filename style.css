@@ -46,21 +46,11 @@ main{
 
 .nomesobrenome{
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
 }
 
-.emailCasa{
-  border: 2px solid blue;
+.casaemail{
   display: flex;
-  flex-direction: row;
-}
-
-.email{
-  border: 2px solid red;
-}
-
-.casa{
-  border: 2px solid black;
 }
 
 .avalia{

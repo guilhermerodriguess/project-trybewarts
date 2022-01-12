@@ -1,5 +1,5 @@
 let button = document.getElementById('botao');
-let email = document.getElementById('input-email');
+let email = document.getElementById('email');
 let senha = document.getElementById('input-senha');
 let check = document.getElementById('agreement');
 

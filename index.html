@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,74 +10,68 @@
 </head>
 
 <body>
- 
+
   <div class="header">
-    <img class= 'trybewarts-header-logo' src="images/trybewarts-header-logo.svg" alt="">
+    <img class='trybewarts-header-logo' src="images/trybewarts-header-logo.svg" alt="">
     <h1 id="trybewarts-header-title">Trybewarts</h1>
-  
-  <form class="trybewarts-login" action="" method="get">
-    <div>      
-      <label for="input-email"></label>
-      <input type="email" name="email" id="input-email" placeholder="Email">
-    </div>
 
-    <div>      
-      <label for="input-senha"></label>
-      <input type="text" name="password" id="input-senha" placeholder="Senha">
-    </div>
+    <form class="trybewarts-login" action="" method="get">
+      <div>
+        <label for="input-email"></label>
+        <input type="email" name="email" id="email" placeholder="Email">
+      </div>
 
-    <button id="botao">Entrar</button>
+      <div>
+        <label for="input-senha"></label>
+        <input type="text" name="password" id="input-senha" placeholder="Senha">
+      </div>
 
-  </form>
+      <button id="botao">Entrar</button>
+
+    </form>
   </div>
-  
+
   <main>
     <form action="" id="evaluation-form">
-      <div class="nomesobrenome">  
-        <div>    
+      <div class="nomesobrenome">
+        <div>
           <label for="input-name"></label>
           <input type="text" name="" id="input-name" placeholder="Nome">
         </div>
-        <div>      
+        <div>
           <label for="input-lastname"></label>
           <input type="text" name="" id="input-lastname" placeholder="Sobrenome">
         </div>
       </div>
-
-    <div class="emailCasa">
-      <div class="email">      
-        <label for="input-email"></label>
+     
+        <div>
         <input type="email" name="" id="input-email" placeholder="Email">
-      </div>
         
-      <div class="casa">
-        <select name="" id="house">
-          <option id="gitnoria-house" value="Gitnória">Gitnória</option>
-          <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
-          <option id="corvinode-house" value="Corvinode">Corvinode</option>
-          <option id="pytherina-house" value="Pytherina">Pytherina</option>
-        </select>
-      </div>
-    </div>
+          <select name="" id="house">
+            <option id="gitnoria-house" value="Gitnória">Gitnória</option>
+            <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
+            <option id="corvinode-house" value="Corvinode">Corvinode</option>
+            <option id="pytherina-house" value="Pytherina">Pytherina</option>
+          </select>
+        </div>
+     
   
-    <hr>
-    
       <div class="btn-radio">
         <p id="label-family">Qual sua família?</p>
         <div>
           <input type="radio" name="family" id="qual-familia" value='Frontend'>
-          <label for="qual-familia" >Familia FrontEnd</label>
+          <label for="qual-familia">Familia FrontEnd</label>
         </div>
         <div>
           <input type="radio" name="family" id="qual-familia" value='Backend'>
-          <label for="qual-familia" >Familia Backend</label>
+          <label for="qual-familia">Familia Backend</label>
         </div>
         <div>
           <input type="radio" name="family" id="qual-familia" value='FullStack'>
-          <label for="qual-familia" >Familia FullStack</label>
+          <label for="qual-familia">Familia FullStack</label>
         </div>
       </div>
-      
+
       <div>
         <p id="label-content">Qual conteúdo você está com mais vontade de aprender?</p>
         <input type="checkbox" name="family" id="qual-HoFs" value='HoFs'>
@@ -92,51 +87,51 @@
         <input type="checkbox" name="family" id="qual-Python" value='Python'>
         <label for="qual-Python">Python</label>
       </div>
-    
-    <hr>
 
-    <div class="avalia">
-      <div>
-        <p id='label-rate'>Como você avalia a Trybewarts?</p>
+      <hr>
+
+      <div class="avalia">
+        <div>
+          <p id='label-rate'>Como você avalia a Trybewarts?</p>
+        </div>
+        <div>
+          <input id='1' type="radio" name="rate" value="1">
+          <label for="1">1</label>
+          <input id='2' type="radio" name="rate" value="2">
+          <label for="2">2</label>
+          <input id='3' type="radio" name="rate" value="3">
+          <label for="3">3</label>
+          <input id='4' type="radio" name="rate" value="4">
+          <label for="4">4</label>
+          <input id='5' type="radio" name="rate" value="5">
+          <label for="5">5</label>
+          <input id='6' type="radio" name="rate" value="6">
+          <label for="6">6</label>
+          <input id='7' type="radio" name="rate" value="7">
+          <label for="7">7</label>
+          <input id='8' type="radio" name="rate" value="8">
+          <label for="8">8</label>
+          <input id='9' type="radio" name="rate" value="9">
+          <label for="9">9</label>
+          <input id='10' type="radio" name="rate" value="10">
+          <label for="10">10</label>
+        </div>
       </div>
+
       <div>
-        <input id='1' type="radio" name="rate" value="1">
-        <label for="1">1</label>
-        <input id='2' type="radio" name="rate" value="2">
-        <label for="2">2</label>
-        <input id='3' type="radio" name="rate" value="3">
-        <label for="3">3</label>
-        <input id='4' type="radio" name="rate" value="4">
-        <label for="4">4</label>
-        <input id='5' type="radio" name="rate" value="5">
-        <label for="5">5</label>
-        <input id='6' type="radio" name="rate" value="6">
-        <label for="6">6</label>
-        <input id='7' type="radio" name="rate" value="7">
-        <label for="7">7</label>
-        <input id='8' type="radio" name="rate" value="8">
-        <label for="8">8</label>
-        <input id='9' type="radio" name="rate" value="9">
-        <label for="9">9</label>
-        <input id='10' type="radio" name="rate" value="10">
-        <label for="10">10</label>
+        <p class="textarea">Deixe seu comentário:</p>
+        <textarea name="" id="" cols="30" rows="10" maxlength="500"></textarea>
       </div>
-    </div>
 
-    <div>
-      <p class="textarea">Deixe seu comentário:</p>
-      <textarea name="" id="" cols="30" rows="10" maxlength="500"></textarea>
-    </div>
+      <div>
+        <label id="label-infos" for="agreement">Você concorda com o uso das informações acima?</label>
+        <input type="checkbox" name="family" id="agreement" value='info'>
+      </div>
 
-    <div>
-      <label id="label-infos" for="agreement">Você concorda com o uso das informações acima?</label>
-      <input type="checkbox" name="family" id="agreement" value='info'>
-    </div>
+      <button type="submit" id="submit-btn">Enviar</button>
 
-    <button type="submit" id="submit-btn">Enviar</button>
-      
     </form>
-    <img id='trybewarts-forms-logo' src="images/trybewarts-colored.svg" alt=""> 
+    <img id='trybewarts-forms-logo' src="images/trybewarts-colored.svg" alt="">
   </main>
 </body>
 
@@ -147,4 +142,5 @@
 </footer>
 
 <script src="script.js"></script>
+
 </html>
