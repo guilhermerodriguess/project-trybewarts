@@ -1,4 +1,4 @@
-# trybewarts
+# Trybewarts
 
 The Trybewarts project is a website that simulates a wizarding school, inspired by the Harry Potter universe. The aim of the project is to create an authentication page and registration form for school students.
 
