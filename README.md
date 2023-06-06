@@ -1,41 +1,41 @@
-# Trybewarts Wizarding School
+# trybewarts
 
-O projeto Trybewarts é um website que simula uma escola de magia, inspirada no universo de Harry Potter. O objetivo do projeto é criar uma página de autenticação e um formulário de inscrição para os estudantes da escola.
+The Trybewarts project is a website that simulates a wizarding school, inspired by the Harry Potter universe. The aim of the project is to create an authentication page and registration form for school students.
 
-## Tecnologias Utilizadas
+## Technologies Used
 
-O projeto Trybewarts foi desenvolvido utilizando as seguintes tecnologias:
+The Trybewarts project was developed using the following technologies:
 
-- **HTML:** HTML foi utilizado para estruturar as páginas do website, fornecendo a base para exibição dos elementos.
+- **HTML:** HTML was used to structure the website pages, providing the basis for displaying elements.
 
-- **CSS:** CSS foi utilizado para adicionar estilo e melhorar a aparência do website, proporcionando uma experiência visual agradável.
+- **CSS:** CSS was used to add style and improve the appearance of the website, providing a pleasant visual experience.
 
-- **JavaScript:** JavaScript foi utilizado para implementar a lógica e a interatividade do website, incluindo a validação do formulário e a manipulação de eventos.
+- **JavaScript:** JavaScript was used to implement the logic and interactivity of the website, including form validation and event handling.
 
-## Instruções de Instalação
+## Installation Instructions
 
-Para começar a utilizar o projeto Trybewarts, siga as etapas abaixo:
+To start using the Trybewarts project, follow the steps below:
 
-1. Clone o repositório utilizando o seguinte comando no seu terminal:
+1. Clone the repository using the following command in your terminal:
 
    ```
    git clone git@github.com:guilhermerodriguess/project-trybewarts.git
    ```
 
-2. Acesse o diretório do projeto:
+2. Access the project directory:
 
    ```
    cd project-trybewarts
    ```
 
-3. Abra o arquivo `index.html` em seu navegador preferido.
+3. Open the `index.html` file in your preferred browser.
 
-Agora você pode explorar a página de autenticação e preencher o formulário de inscrição para se tornar um estudante da Trybewarts Wizarding School.
+You can now explore the authentication page and fill in the application form to become a Trybewarts Wizarding School student.
 
-## Considerações Finais
+## Final considerations
 
-Obrigado por explorar o projeto Trybewarts! Esperamos que você se divirta enquanto se aventura no mundo da magia. Sinta-se à vontade para explorar o código, fazer modificações e adaptá-lo de acordo com suas necessidades.
+Thanks for exploring the Trybewarts project! We hope you have fun as you venture into the world of magic. Feel free to explore the code, make modifications and adapt it to your needs.
 
-Se você tiver alguma dúvida, sugestão ou problema com o projeto, não hesite em abrir uma issue ou entrar em contato. Seu feedback é sempre bem-vindo!
+If you have any questions, suggestions or problems with the project, don't hesitate to open an issue or get in touch. Your feedback is always welcome!
 
-Aproveite a experiência e divirta-se na Trybewarts!
+Enjoy the experience and have fun at Trybewarts!
